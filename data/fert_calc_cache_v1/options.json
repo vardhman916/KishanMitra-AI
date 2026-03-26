@@ -1,0 +1,570 @@
+{
+  "crop_group": [
+    "Field crops",
+    "Cash crops",
+    "Fruit crops",
+    "Vegetable crops",
+    "Spice crops",
+    "Pulse crops",
+    "Tuber crops",
+    "Ornamental plants",
+    "Medicinal plants",
+    "Fodder crops",
+    "Green manure crops"
+  ],
+
+  "crop_name_by_group": {
+    "Fruit crops": [
+      "Apple",
+      "Banana (Nendran)",
+      "Guava",
+      "Mandarin orange",
+      "Mango",
+      "Papaya",
+      "Pineapple",
+      "Sapota",
+      "West Indian cherry"
+    ],
+    "Field crops": [
+      "Rice(Kattukampal)",
+      "Rice(Kootumundukkan)",
+      "Rice(Onattukkara)",
+      "Rice(Ponnani kole)",
+      "Rice(Upland)",
+      "Rice(Wetland-Others)",
+      "Rice(Wetland-Kuttanad)",
+      "Rice(Kole General)",
+      "Maize",
+      "Ragi",
+      "Sugarcane",
+      "Sorghum",
+      "Groundnut",
+      "Sesame",
+      "Tobacco",
+      "Cotton"
+    ],
+    "Cash crops": [
+      "Arecanut",
+      "Cashew",
+      "Cocoa",
+      "Coconut(Reclaimed clayey soils)",
+      "Coconut(Average Management)",
+      "Coconut(Good Mangement)",
+      "Coconut(HYV under rainfed)",
+      "Coconut(HYV with irrigation)",
+      "Coconut(Red loam soils)",
+      "Coffee(Arabica)",
+      "Coffee(Robusta)",
+      "Rubber",
+      "Oil Palm",
+      "Tea(pH below 4.5)",
+      "Tea(pH 4.5-5.5)",
+      "Tea(pH above 5.5)"
+    ],
+    "Vegetable crops": [
+      "Amaranth",
+      "Ash Gourd",
+      "Beetroot",
+      "Bitter gourd",
+      "Bottle gourd",
+      "Brinjal",
+      "Cabbage",
+      "Carrot",
+      "Cauliflower",
+      "Chilli",
+      "Cucumber",
+      "Garlic",
+      "Okra",
+      "Potato",
+      "Pumpkin",
+      "Radish",
+      "Snake gourd",
+      "Tomato",
+      "Water melon"
+    ],
+    "Spice crops": [
+      "Camboge",
+      "Cardomom",
+      "Cinnamon",
+      "Clove",
+      "Ginger",
+      "Mango ginger",
+      "Nutmeg",
+      "Pepper",
+      "Turmeric",
+      "Vanilla"
+    ],
+    "Pulse crops":[
+      "Black gram",
+      "Cow pea",
+      "French bean",
+      "Green gram",
+      "Green pea",
+      "Horse gram",
+      "Red gram",
+      "Soybean"
+    ],
+    "Tuber crops": [
+      "Coleus",
+      "Colocasia",
+      "Elephant foot yam",
+      "Greater yam",
+      "Lesser yam",
+      "Sweet potato",
+      "Tapioca",
+      "White yam"
+    ],
+    "Ornamental plants": [
+      "Chinaaster", "Crossandra", "Gladiolus", 
+      "Jasmine", "Marigold", "Tuberose"
+    ],
+    "Medicinal plants":[
+      "Asoka", "Black Musli", "Chengazhinirkizhangu", 
+      "Chethikoduveli", "Chittaratha", "Eucalyptus", "Holostemma", 
+      "Kacholam", "Kasthurimanjal", "Lemon grass", "Vetiver"
+    ],
+    "Fodder crops":[
+      "Congosignal grass", "Fodder cow pea", 
+      "Fodder cow pea irrigate", "Fodder maize", "Fodder sorghum", 
+      "Gamba grass", "Gamba grass", "Hybrid Napier", "Para grass", "Stylo"
+    ],
+    "Green manure":[
+      "Subabul"
+    ]
+
+  },
+
+  "condition_by_crop": {
+    "Banana (Nendran)": [
+      "2 split application",
+      "6 split application",
+      "General",
+      "First ratoon",
+      "Second ratoon",
+      "Onattukkara"
+    ],
+    "Apple": [
+      "General"
+    ],
+    "Mandarin orange": [
+      "1st year",
+      "2nd year",
+      "3rd year",
+      "4th year",
+      "5th year",
+      "6th year",
+      "7th year onwards"
+    ],
+    "Mango": [
+      "1st year",
+      "2nd year",
+      "3-5 years",
+      "6-7 years",
+      "8-10 years",
+      "10th year onwards"
+    ],
+    "Papaya": [
+      "General"
+    ],
+    "Pineapple": [
+      "Kew",
+      "Mauritius"
+    ],
+    "Sapota": [
+      "General"
+    ],
+    "West Indian cherry": [
+      "General"
+    ],
+    "Rice(Kattukampal)": [
+      "HYV Duration 120-140 days"
+    ],
+    "Rice(Kootumundukkan)": [
+      "First crop",
+      "Second crop"
+    ],
+    "Rice(Onattukkara)": [
+      "General"
+    ],
+    "Rice(Ponnani kole)": [
+      "HYV Duration 120-140 days"
+    ],
+    "Rice(Upland)": [
+      "HYV duration<120 days",
+      "Local Varieties"
+    ],
+    "Rice(Wetland-Others)": [
+      "H4 Variety",
+      "HYV duration<120 days",
+      "HYV Duration 120-140 days",
+      "Local Varieties",
+      "Mahsuri"
+    ],
+    "Rice(Wetland-Kuttanad)": [
+      "HYV Duration 120-140 days"
+    ],
+    "Rice(Kole General)": [
+      "HYV Duration below 120 days",
+      "HYV Duration 120-140 days"
+    ],
+    "Arecanut": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Cashew": [
+      "1st year",
+      "2nd year",
+      "3rd year",
+      "4th year",
+      "5th year onwards"
+    ],
+    "Cocoa": [
+      "Yield below 60 pods/tree",
+      "Yield above 60 pods/tree"
+    ],
+    "Coconut(Reclaimed clayey soils)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Coconut(Average Management)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Coconut(Good Management)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Coconut(HYV under rainfed)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Coconut(HYV with irrigation)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Coconut(Red loam soils)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Coffee(Arabica)": [
+      "1st year",
+      "2nd year",
+      "3rd year",
+      "4th year",
+      "5th year",
+      "6th year",
+      "7th year onwards"
+    ],
+    "Coffee(Robusta)": [
+      "5th year(Yield < 1t/ha)",
+      "5th year(Yield > 1t/ha)"
+    ],
+    "Rubber": [
+      "1st year",
+      "2nd year",
+      "3rd year",
+      "4th year",
+      "5th year onwards(Cover crop)",
+      "5th year onwards(No cover crop)",
+      "Under Tapping"
+    ],
+    "Oil Palm": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Tea(pH below 4.5)": [
+      "1st year",
+      "2nd year",
+      "3rd year",
+      "4th year and above"
+    ],
+    "Tea(pH 4.5-5.5)": [
+      "1st year",
+      "2nd year",
+      "3rd year",
+      "4th year and above"
+    ],
+    "Tea(pH above 5.5)": [
+      "1st year",
+      "2nd year",
+      "3rd year onwards"
+    ],
+    "Amaranth": [
+      "General"
+    ],
+    "Ash gourd": [
+      "General"
+    ],
+    "Beetroot": [
+      "General"
+    ],
+    "Bitter gourd": [
+      "General"
+    ],
+    "Bottle gourd": [
+      "General"
+    ],
+    "Brinjal": [
+      "General"
+    ],
+    "Cabbage": [
+      "General"
+    ],
+    "Carrot": [
+      "General"
+    ],
+    "Cauliflower": [
+      "General"
+    ],
+    "Chilli": [
+      "General"
+    ],
+    "Cucumber": [
+      "General"
+    ],
+    "Garlic": [
+      "General"
+    ],
+    "Okra": [
+      "General"
+    ],
+    "Potato": [
+      "General"
+    ],
+    "Pumpkin": [
+      "General"
+    ],
+    "Radish": [
+      "General"
+    ],
+    "Snake gourd": [
+      "General"
+    ],
+    "Tomato": [
+      "General"
+    ],
+    "Water melon": [
+      "General"
+    ],
+    "Camboge": [
+      "1st year",
+      "15 years onwards"
+    ],
+    "Cardomom": [
+      "General"
+    ],
+    "Cinnamon": [
+      "1st year(1-10 years)",
+      "10th year onwards"
+    ],
+    "Clove": [
+      "1st year(1-15 years)",
+      "Adult tree(15 years)"
+    ],
+    "Ginger": [
+      "General"
+    ],
+    "Mango ginger": [
+      "General"
+    ],
+    "Nutmeg": [
+      "1st year(1-15 years)",
+      "15th year onwards"
+    ],
+    "Pepper": [
+      "1 year old(General)",
+      "2 year old(General)",
+      "3 year and above(General)",
+      "Kozhikode areas",
+      "Panniyur areas"
+    ],
+    "Turmeric": [
+      "General"
+    ],
+    "Vanilla": [
+      "General"
+    ],
+    "Black gram": [
+      "General"
+    ],
+    "Cow pea": [
+      "General"
+    ],
+    "French bean": [
+      "General"
+    ],
+    "Green gram": [
+      "General"
+    ],
+    "Green pea": [
+        "General"
+    ],
+    "Horse gram": [
+        "General"
+    ],
+    "Red gram": [
+        "General"
+    ],
+    "Soybean": [
+        "General"
+    ],
+    "Coleus": [
+        "General"
+    ],
+    "Colocasia": [
+        "General"
+    ],
+    "Elephant foot yam": [
+        "General"
+    ],
+    "Greater yam": [
+        "General"
+    ],
+    "Lesser yam": [
+        "General"
+    ],
+    "Sweet potato": [
+        "General"
+    ],
+    "Tapioca": [
+        "Select",
+        "H-97 and H 226",
+        "H-165, Sree Visakham, Sree Sahya",
+        "M-4 and local"
+    ],
+    "White yam": [
+        "General"
+    ],
+    "Chinaaster": [
+        "General"
+    ],
+    "Crossandra": [
+        "General"
+    ],
+    "Gladiolus": [
+        "General"
+    ],
+    "Jasmine": [
+        "General"
+    ],
+    "Marigold": [
+        "General"
+    ],
+    "Tuberose": [
+        "General"
+    ],
+    "Asoka": [
+        "General"
+    ],
+    "Black Musli": [
+        "General"
+    ],
+    "Chengazhinirkizhangu": [
+        "General"
+    ],
+    "Chethikoduveli": [
+        "General"
+    ],
+    "Chittaratha": [
+        "General"
+    ],
+    "Eucalyptus": [
+        "General"
+    ],
+    "Holostemma": [
+        "General"
+    ],
+    "Kacholam": [
+        "General"
+    ],
+    "Kasthurimanjal": [
+        "General"
+    ],
+    "Lemon grass": [
+        "General"
+    ],
+    "Vetiver": [
+        "General"
+    ],
+    "Congosignal grass": [
+        "General"
+    ],
+    "Fodder cow pea": [
+        "General"
+    ],
+    "Fodder cow pea irrigated": [
+        "General"
+    ],
+    "Fodder maize": [
+        "General"
+    ],
+    "Fodder sorghum": [
+        "General"
+    ],
+    "Gamba grass": [
+        "General"
+    ],
+    "Hybrid Napier": [
+        "General"
+    ],
+    "Para grass": [
+        "General"
+    ],
+    "Stylo": [
+        "General"
+    ],
+    "Subabul": [
+        "General"
+    ]
+  
+  },
+
+  "soil_type": ["Sandy", "Loamy", "Clayey"],
+
+  "organic_carbon": [
+    "0.00-0.16",
+    "0.17-0.33",
+    "0.34-0.50",
+    "0.51-0.75",
+    "0.76-1.00",
+    "1.01-1.25",
+    "1.26-1.50",
+    "1.51-1.83",
+    "1.84-2.16",
+    "2.17-2.50"
+  ],
+
+  "available_p": [
+    "0.00-3.00",
+    "3.10-6.50",
+    "6.60-10.50",
+    "10.60-13.50",
+    "13.60-17.00",
+    "17.10-20.50",
+    "20.60-24.00",
+    "24.10-27.50",
+    "27.60-31.00",
+    "31.10-34.50"
+  ],
+
+  "available_k": [
+    "0.00-35.00",
+    "36.00-75.00",
+    "76.00-115.00",
+    "116.00-155.00",
+    "156.00-195.00",
+    "196.00-235.00",
+    "236.00-275.00",
+    "276.00-315.00",
+    "316.00-355.00",
+    "356.00-395.00"
+  ]
+}

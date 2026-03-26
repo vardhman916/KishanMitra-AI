@@ -1,0 +1,164 @@
+{
+  "crop_group": [
+    "Field crops",
+    "Cash crops",
+    "Fruit crops",
+    "Vegetable crops",
+    "Spice crops",
+    "Pulse crops",
+    "Tuber crops",
+    "Ornamental plants",
+    "Medicinal plants",
+    "Fodder crops",
+    "Green manure crops"
+  ],
+
+  "crop_name_by_group": {
+
+    "Field crops": [
+      "Rice (Kattukampal)",
+      "Rice (Kootumundukkan)",
+      "Rice (Onattukkara)",
+      "Rice (Ponnani kole)",
+      "Rice (Upland)",
+      "Rice (Wetland-Others)",
+      "Rice (Wetland-Kuttanad)",
+      "Rice (Kole General)",
+      "Maize",
+      "Ragi",
+      "Sugarcane",
+      "Sorghum",
+      "Groundnut",
+      "Sesame",
+      "Tobacco",
+      "Cotton"
+    ],
+
+    "Cash crops": [
+      "Arecanut",
+      "Cashew",
+      "Cocoa",
+      "Coconut (Reclaimed clayey soils)",
+      "Coconut (Average Management)",
+      "Coconut (Good Management)",
+      "Coconut (HYV under rainfed)",
+      "Coconut (HYV with irrigation)",
+      "Coconut (Red loam soils)",
+      "Coffee (Arabica)",
+      "Coffee (Robusta)",
+      "Rubber",
+      "Oil Palm",
+      "Tea (pH below 4.5)",
+      "Tea (pH 4.5-5.5)",
+      "Tea (pH above 5.5)"
+    ],
+
+    "Fruit crops": [
+      "Apple",
+      "Banana (Nendran)",
+      "Guava",
+      "Mandarin orange",
+      "Mango",
+      "Papaya",
+      "Pineapple",
+      "Sapota",
+      "West Indian cherry"
+    ],
+
+    "Vegetable crops": [
+      "Amaranth",
+      "Ash Gourd",
+      "Beetroot",
+      "Bitter gourd",
+      "Bottle gourd",
+      "Brinjal",
+      "Cabbage",
+      "Carrot",
+      "Cauliflower",
+      "Chilli",
+      "Cucumber",
+      "Garlic",
+      "Okra",
+      "Potato",
+      "Pumpkin",
+      "Radish",
+      "Snake gourd",
+      "Tomato",
+      "Water melon"
+    ],
+
+    "Spice crops": [
+      "Camboge",
+      "Cardamom",
+      "Cinnamon",
+      "Clove",
+      "Ginger",
+      "Mango ginger",
+      "Nutmeg",
+      "Pepper",
+      "Turmeric",
+      "Vanilla"
+    ],
+
+    "Pulse crops": [
+      "Black gram",
+      "Cow pea",
+      "French bean",
+      "Green gram",
+      "Green pea",
+      "Horse gram",
+      "Red gram",
+      "Soybean"
+    ],
+
+    "Tuber crops": [
+      "Coleus",
+      "Colocasia",
+      "Elephant foot yam",
+      "Greater yam",
+      "Lesser yam",
+      "Sweet potato",
+      "Tapioca",
+      "White yam"
+    ],
+
+    "Ornamental plants": [
+      "Chinaaster",
+      "Crossandra",
+      "Gladiolus",
+      "Jasmine",
+      "Marigold",
+      "Tuberose"
+    ],
+
+    "Medicinal plants": [
+      "Asoka",
+      "Black Musli",
+      "Chengazhinirkizhangu",
+      "Chethikoduveli",
+      "Chittaratha",
+      "Eucalyptus",
+      "Holostemma",
+      "Kacholam",
+      "Kasthurimanjal",
+      "Lemon grass",
+      "Vetiver"
+    ],
+
+    "Fodder crops": [
+      "Congosignal grass",
+      "Fodder cow pea",
+      "Fodder cow pea (irrigated)",
+      "Fodder maize",
+      "Fodder sorghum",
+      "Gamba grass",
+      "Hybrid Napier",
+      "Para grass",
+      "Stylo"
+    ],
+
+    "Green manure crops": [
+      "Subabul"
+    ]
+  }
+}

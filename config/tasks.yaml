@@ -1,0 +1,103 @@
+manager_plan_task:
+  agent: manager
+  description: >
+    Analyze the farmer query and create a plan:
+    - Identify intent(s): weather, mandi price, disease advisory, gov scheme, contact, general info, portal link
+    - Decide which specialist tasks to run
+    - Provide structured routing decision and inputs needed for each tool
+  expected_output: >
+    JSON with:
+    {
+      "intents": ["..."],
+      "tasks_to_run": ["weather_task", "market_task", "disease_task", "web_browse_task"],
+      "inputs": {
+        "weather_task": {"location": "..."},
+        "market_task": {"commodity": "...", "state": "...", "market": "..."},
+        "disease_task": {"crop": "...", "disease": "..."},
+        "web_browse_task": {"query": "...", "location_hint": "...", "mode": "auto|gov_only|general", "max_sources": 3}
+      }
+    }
+
+weather_task:
+  description: >
+    Analyze the user's query: "{query}"
+    
+    1. Extract the **Location** (e.g., "Bhilwara").
+    2. Extract the **Number of Days** (e.g., "4 days"). 
+       - If the user says "today", use days=1.
+       - If the user says "next week", use days=5 (max limit).
+       - If no days are mentioned, default to 3.
+    
+    3. Use the 'weather_tool' with BOTH inputs:
+       - location: "..."
+       - days: ...
+    
+    4. Analyze the returned data and provide farming advice.
+    
+    STRICT RULES:
+    - If 'rain_total_mm_est' > 0, warn against spraying.
+    - If 'temp_max' > 35, warn about heat stress.
+    
+    Structure your answer:
+    - 📍 **Location & Status**
+    - 📅 **Day Forecast Table** (Date | Temp | Rain | Sky)
+    - 🚜 **Farmer Advisory** (Actionable advice based on the data)
+    
+  expected_output: >
+    A structured, easy-to-read weather report with specific farming advice.
+
+market_price_task:
+  description: >
+    Analyze the user's query: "{query}"
+
+    1. Extract **Commodity**.
+    2. Extract **State**.
+    3. Extract **Market/Mandi**.
+       - lets example If the user says "Kota Mandi", just extract "Kota".
+
+    4. Use the 'market_tool' with these three inputs.
+
+    5. From the tool output, report:
+       - Minimum Price
+       - Maximum Price
+       - Average Price
+       - **Last Updated Date** (Crucial)
+
+  expected_output: >
+    A clear table of prices (Min/Max/Avg) and the date of the update.
+
+diagnosis_task:
+  description: >
+    1. The user has provided an image at: "{image_path}".
+    2. Use the 'Crop Health Scanner' tool to analyze this image.
+    3. EXTRACT the disease name with the highest confidence.
+    4. If the plant is healthy, stop and report "Healthy".
+    5. If a disease is found (e.g., "Yellow Rust"), use the 'Disease Knowledge Base' tool 
+       to search for that specific disease name in the 'Wheat' crop.
+    6. Return the combined findings: Disease Name, Confidence, Confirmed Symptoms, and Chemical Control.
+  expected_output: >
+    A final report containing:
+    - Disease Name & Confidence
+    - Symptoms (from Excel DB)
+    - Control/Treatment (from Excel DB)
+
+# ... (Keep your existing tasks) ...
+
+routing_task:
+  description: >
+    Analyze the user query: "{query}"
+    
+    Determine which agents are required:
+    1. **Weather Agent:** If the user asks about rain, temperature, forecast, or "can I spray?".
+    2. **Market Agent:** If the user asks about price, mandi, rates, or selling.
+    3. **Disease Agent:** If the user mentions symptoms, pests, photos, or "my crop is dying".
+    
+    STRICT JSON OUTPUT FORMAT:
+    {{
+      "weather": true/false,
+      "market": true/false,
+      "disease": true/false,
+      "reason": "Brief reason for decision"
+    }}
+  expected_output: >
+    A valid JSON object deciding the active agents.

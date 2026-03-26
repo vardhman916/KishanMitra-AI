@@ -1,0 +1,43 @@
+{
+  "crop_list": [
+    "Wheat",
+    "Mustard",
+    "Tomato"
+  ],
+
+  "pest_by_crop": {
+    "Wheat": [
+      "Aphids",
+      "Termites",
+      "Brown mite",
+      "Army worm/cut worm",
+      "Shoot fly",
+      "Wheat thrips",
+      "Pink stem borer",
+      "Ghujhia weevil",
+      "Root-knot nematode",
+      "Molya nematode / cyst nematode",
+      "Wheat-gall nematode"
+    ],
+
+    "Mustard": [
+      "Bihar hairy caterpillar",
+      "Mustard aphid",
+      "Painted bug",
+      "Mustard saw fly",
+      "Mustard leaf miner",
+      "Diamondback moth",
+      "Cabbage head borer",
+      "Larger moth (leaf webber)"
+    ],
+
+    "Tomato": [
+      "Serpentine leaf miner",
+      "Gram pod borer",
+      "Tobacco caterpillar",
+      "Whitefly",
+      "Spider mites",
+      "Root-knot nematode"
+    ]
+  }
+}
